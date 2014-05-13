@@ -33,9 +33,9 @@ import org.apache.http.util.EntityUtils;
 
 public class Connection{
 
-    static String API_KEY = "cfRLryi3kiOvgh71"; //Will send Privatly
+    static String API_KEY = ""; //Will send Privatly
 
-    static String API_SECRET = "oXcjTzlaZaD4IEXFnNIMpQkPYLQIKNAp"; //Will send Privatly
+    static String API_SECRET = ""; //Will send Privatly
     
     public static String getHttp(String url, String body) //getHTTP method called in Main() for Coinbase connections
             throws InvalidKeyException, NoSuchAlgorithmException, // Error handling 
